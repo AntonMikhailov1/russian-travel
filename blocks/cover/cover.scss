@@ -1,0 +1,15 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+    max-width: 100%;
+    min-height: auto;
+    padding: {
+        top: 33px;
+        left: 16px;
+        right: 16px;
+        bottom: 33px;
+    };
+}

@@ -1,0 +1,13 @@
+.cover__background {
+    background-image: url("../images/cover-trains.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+
+@media (hover: hover) {
+    .cover__background:hover {
+        opacity: 0.3;
+        transition: opacity 0.3s ease;
+    }
+}

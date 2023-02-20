@@ -1,7 +1,16 @@
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(288px, 395px));
     gap: 14px;
-    grid-auto-flow: row;
+    place-items: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 767px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fit, 352px);
+        gap: 16px;
+        place-items: center;
+    }
 }

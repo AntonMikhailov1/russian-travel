@@ -4,4 +4,6 @@
     box-sizing: border-box;
     background-color: $background-color;
     @include font-family;
+    font-weight: $font-weight-regular;
+    color: $text-color;
 }

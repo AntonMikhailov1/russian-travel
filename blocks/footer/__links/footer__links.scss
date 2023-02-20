@@ -1,0 +1,16 @@
+.footer__links {
+    @include ul-reset;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 32px;
+}
+
+@media screen and (min-width: 767px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        row-gap: 18px;
+    }
+}
