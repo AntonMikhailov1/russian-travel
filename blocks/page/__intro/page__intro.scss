@@ -6,3 +6,36 @@
         bottom: 64px;
     }
 }
+
+@media screen and (min-width: 767px) {
+    .page__intro {  
+        margin: {
+            top: 0;
+            right: 24px;
+            left: 24px;
+            bottom: 64px;
+        }
+    }
+}
+
+@media screen and (min-width: 824px) {
+    .page__intro {  
+        margin: {
+            top: 0;
+            right: auto;
+            left: 48px;
+            bottom: 64px;
+        }
+    }
+}
+
+@media screen and (min-width: 1279px) {
+    .page__intro {  
+        margin: {
+            top: 0;
+            right: auto;
+            left: 148px;
+            bottom: 64px;
+        }
+    }
+}

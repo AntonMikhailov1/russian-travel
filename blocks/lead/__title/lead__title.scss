@@ -1,49 +1,28 @@
 .lead__title {
-    color: $text-color;
-    font-size: 40px;
-    line-height: 44px;
+    max-width: 100%;
+    font-size: clamp(2.5rem, -0.3rem + 14vw, 6rem);
+    line-height: 1.1;
     font-weight: $font-weight-black;
     text-align: center;
     margin: {
         top: 0;
-        left: 0;
-        right: 0;
-        bottom: 16px;
-    };
-    padding: {
-        top: 0;
         left: 16px;
         right: 16px;
-        bottom: 0; 
+        bottom: 16px;
     };
+    padding: 0;
 }
 
-// @media screen and (min-width: 768px) {
-//     .lead__title {
-//         font-size: 96px;
-//         line-height: 100px;
-//         margin: {
-//             top: 0;
-//             left: 0;
-//             right: 0;
-//             bottom: 32px;
-//         };
-//         padding: {
-//             top: 0;
-//             left: 24px;
-//             right: 24px;
-//             bottom: 0; 
-//         };
-//     }
-// }
-
-// @media screen and (min-width: 1024px) {
-//     .lead__title {
-//         padding: {
-//             top: 0;
-//             left: 24px;
-//             right: 24px;
-//             bottom: 0; 
-//         };
-//     }
-// }
+@media screen and (min-width: 767px) {
+    .lead__title {
+        max-width: 720px;
+        font-size: 96px;
+        line-height: 1.042;
+        margin: {
+            top: 0;
+            left: auto;
+            right: auto;
+            bottom: 32px;
+        };
+    }
+}

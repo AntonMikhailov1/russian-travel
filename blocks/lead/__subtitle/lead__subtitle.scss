@@ -1,19 +1,33 @@
 .lead__subtitle {
-    color: $text-color;
-    font-size: 16px;
-    line-height: 20px;
     font-weight: $font-weight-regular;
+    font-size: clamp(1rem, 0.3rem + 3.5vw, 1.875rem);
+    line-height: 1.25;
     text-align: center;
     margin: {
         top: 0;
-        left: 0;
-        right: 0;
-        bottom: 40px;
-    };
-    padding: {
-        top: 0;
         left: 16px;
         right: 16px;
-        bottom: 0; 
+        bottom: 40px;
     };
+    padding: 0;
+}
+
+@media screen and (min-width: 767px) {
+    .lead__subtitle {
+        max-width: 640px;
+        font-size: 30px;
+        line-height: 1.2;
+        margin: {
+            top: 0;
+            left: auto;
+            right: auto;
+            bottom: 56px;
+        };
+    }
+}
+
+@media screen and (min-width: 1279px) {
+    .lead__subtitle {
+        margin-bottom: 64px;
+    }
 }

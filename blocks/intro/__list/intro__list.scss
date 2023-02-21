@@ -3,5 +3,7 @@
     font-size: 12px;
     font-weight: $font-weight-regular;
     line-height: 1.5;
-    color: $text-color;  
+    color: $text-color;
+    max-width: 100%;
+    min-height: 90px;  
 }

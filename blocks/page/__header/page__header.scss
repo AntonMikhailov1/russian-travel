@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
     .page__header {
         margin: {
             top: 28px;
@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px) {
     .page__header {
         margin: {
             top: 28px;
@@ -30,13 +30,8 @@
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1279px) {
     .page__header {
-        margin: {
-            top: 28px;
-            left: 24px;
-            right: 24px;
-            bottom: 56px;
-        };
+        margin-bottom: 56px;
     }
 }

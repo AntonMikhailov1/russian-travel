@@ -1,7 +1,14 @@
 .header__lang-links {
+    @include ul-reset;
     display: flex;
     align-items: end;
     vertical-align: middle;
     column-gap: 18px;
-    @include ul-reset;
+    margin: 0;
+    padding: {
+        top: 8px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    };
 }

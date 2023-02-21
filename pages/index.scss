@@ -26,9 +26,11 @@
 @import "../blocks/header/__logo/header__logo.scss";
 @import "../blocks/header/__lang-links/header__lang-links.scss";
 @import "../blocks/header/__lang-link/header__lang-link.scss";
+@import "../blocks/header/__lang-link/_active/header__lang-link_active.scss";
 
 // Lead 
 
+@import "../blocks/lead/lead.scss";
 @import "../blocks/lead/__caption/lead__caption.scss";
 @import "../blocks/lead/__image/lead__image.scss";
 @import "../blocks/lead/__subtitle/lead__subtitle.scss";
@@ -36,6 +38,7 @@
 
 // Intro 
 
+@import "../blocks/intro/intro.scss";
 @import "../blocks/intro/__title/intro__title.scss";
 @import "../blocks/intro/__text/intro__text.scss";
 @import "../blocks/intro/__list/intro__list.scss";
