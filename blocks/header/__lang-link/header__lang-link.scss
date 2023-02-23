@@ -1,7 +1,8 @@
 .header__lang-link {
     display: inline-block;
-    color: $text-color;
     @include font-family;
+    @include border-box;
+    @include link-reset;
     font-size: 18px;
     line-height: 20px;
 }

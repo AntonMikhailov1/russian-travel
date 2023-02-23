@@ -1,7 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../../../fonts/Inter-Regular.woff2") format("woff2"),
+         url("../../../fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../../../fonts/Inter-Bold.woff2") format("woff2"),
+         url("../../../fonts/Inter-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../../../fonts/Inter-Black.woff2") format("woff2"),
+         url("../../../fonts/Inter-Black.woff") format("woff");
+  }
 
 $font-base: "Inter";
-$font-secondary: sans-serif;
+$font-secondary: Arial;
+$font-default: sans-serif;
 
 $font-weight-black: 900;
 $font-weight-bold: 700;

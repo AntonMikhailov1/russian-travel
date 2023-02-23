@@ -1,4 +1,22 @@
 .page__plaсes {
-    margin: 0;
-    padding: 0;
+    @include border-box;
+    padding: {
+        bottom: 66px;
+    };
+}
+
+@media screen and (min-width: 767px) {
+    .page__places {
+        padding: {
+            bottom: 90px;
+        };
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .page__places {
+        padding: {
+            bottom: 92px;
+        };
+    }
 }

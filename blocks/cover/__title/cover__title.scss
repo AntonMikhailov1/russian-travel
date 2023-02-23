@@ -1,8 +1,23 @@
 .cover__title {
-    margin: 0;
-    padding: 0;
+    @include border-box;
+    position: relative;
     text-align: center;
     font-weight: $font-weight-black;
-    font-size: 32px;
+    font-size: clamp(2rem, 0rem + 10vw, 4.5rem);
     line-height: 1.094;
+    z-index: 3;
+}
+
+
+@media screen and (min-width: 568px) {
+    .cover__title {
+        line-height: 1.056;
+        width: calc(100% - 2 * 52px);
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .cover__title {
+        width: 560px;
+    }
 }

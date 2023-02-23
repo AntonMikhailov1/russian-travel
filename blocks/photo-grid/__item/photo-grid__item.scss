@@ -1,5 +1,7 @@
 .photo-grid__item {
-    max-width: 100%;
+    @include border-box;
+    display: block;
+    width: 100%;
     height: auto;
     object-fit: contain;
     object-position: center;

@@ -1,9 +1,12 @@
 .page__cover {
-    margin: {
-        top: 66px;
-        left: 0;
-        right: 0;
-        bottom: 64px;
-    };
-    padding: 0;
+    @include border-box;
+}
+
+@media screen and (min-width: 1084px) {
+    .page__cover {
+        margin: {
+            left: auto;
+            right: auto;
+        };
+    }
 }

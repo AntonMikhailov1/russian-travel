@@ -1,15 +1,14 @@
 .lead__subtitle {
+    @include border-box;
     font-weight: $font-weight-regular;
     font-size: clamp(1rem, 0.3rem + 3.5vw, 1.875rem);
     line-height: 1.25;
     text-align: center;
     margin: {
-        top: 0;
         left: 16px;
         right: 16px;
         bottom: 40px;
     };
-    padding: 0;
 }
 
 @media screen and (min-width: 767px) {
@@ -18,7 +17,6 @@
         font-size: 30px;
         line-height: 1.2;
         margin: {
-            top: 0;
             left: auto;
             right: auto;
             bottom: 56px;

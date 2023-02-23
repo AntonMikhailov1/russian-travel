@@ -1,21 +1,10 @@
 .lead__image {
+    @include border-box;
     display: block;
     width: 100%;
     height: auto;
     pointer-events: none;
-    margin: {
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 8px;
-    };
+    margin-bottom: 8px;
 }
 
-// @media screen and (min-width: 928px) {
-//     .lead__image {
-//         width: 928px;
-//         height: auto;
-//         margin: 0 auto;
-//     }
-// }
 

@@ -1,4 +1,19 @@
 .footer__link {
-    font-size: 16px;
-    line-height: 1.12; 
+    @include border-box;
+    @include link-reset;
+    font-size: 24px;
+    line-height: 1; 
+}
+
+@media screen and (min-width: 568px) {
+    .footer__link {
+        font-size: 16px;
+        line-height: 1.125; 
+    }
+}
+
+@media (hover: hover) {
+    .footer__link:hover {
+        @include hover-effect;
+    }
 }

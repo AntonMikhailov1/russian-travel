@@ -1,9 +1,16 @@
 .page__footer {
-    margin: {
-        top: 0;
-        left: 16px;
-        right: auto;
-        bottom: 24px;
-    };
-    padding: 0;
+    margin-bottom: 24px;
+    padding-top: 64px;
+}
+
+@media screen and (min-width: 767px) {
+    .page__footer {
+        padding-top: 88px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .page__footer {
+        padding-top: 92px;
+    }
 }
