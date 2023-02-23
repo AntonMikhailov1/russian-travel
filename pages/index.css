@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("Inter-Regular.woff2") format("woff2"), url("Inter-Regular.woff") format("woff"), url("Inter-Black.ttf") format("truetype");
+  src: url("Inter-Regular.woff2") format("woff2"), url("Inter-Regular.woff") format("woff"), url("Inter-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Inter";
@@ -19,7 +19,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("Inter-Black.woff2") format("woff2"), url("Inter-Black.woff") format("woff"), url("Inter-Bold.ttf") format("truetype");
+  src: url("Inter-Black.woff2") format("woff2"), url("Inter-Black.woff") format("woff"), url("Inter-Black.ttf") format("truetype");
 }
 .page {
   display: flex;
@@ -521,13 +521,22 @@
 }
 .cover {
   margin: auto;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   row-gap: 16px;
-  max-width: 100%;
   min-height: auto;
+  background-image: url("../images/cover-trains.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-width: 1184px;
+  aspect-ratio: 1.6;
+  height: auto;
+  z-index: 1;
 }
 
 @media screen and (min-width: 767px) {
@@ -556,19 +565,6 @@
     transition: opacity 0.3s ease;
   }
 }
-.cover__background {
-  position: relative;
-  background-image: url("../images/cover-trains.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  max-width: 1184px;
-  aspect-ratio: 1.6;
-  height: auto;
-  z-index: 1;
-}
-
 .cover__title {
   margin: 0;
   padding: 0;
