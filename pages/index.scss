@@ -1,7 +1,3 @@
-* {
-    outline: 1px solid pink;
-}
-
 @import "../node_modules/normalize.css/normalize.css";
 
 @import "../blocks/base/__colors/base__colors.scss";
@@ -11,14 +7,6 @@
 //Page
 
 @import "../blocks/page/page.scss";
-@import "../blocks/page/__content/page__content.scss";
-@import "../blocks/page/__header/page__header.scss";
-@import "../blocks/page/__lead/page__lead.scss";
-@import "../blocks/page/__intro/page__intro.scss";
-@import "../blocks/page/__photo-grid/page__photo-grid.scss";
-@import "../blocks/page/__places/page__places.scss";
-@import "../blocks/page/__cover/page__cover.scss";
-@import "../blocks/page/__footer/page__footer.scss";
 
 // Header
 
@@ -61,6 +49,7 @@
 @import "../blocks/place/__title/place__title.scss";
 @import "../blocks/place/__url-heading/place__url-heading.scss";
 @import "../blocks/place/__website/place__website.scss";
+@import "../blocks/place/__text/place__text.scss";
 @import "../blocks/place/__paragraph/place__paragraph.scss";
 
 // Cover 
@@ -77,3 +66,13 @@
 @import "../blocks/footer/__link/footer__link.scss";
 @import "../blocks/footer/__copyright/footer__copyright.scss";
 
+// Page styles
+
+@import "../blocks/page/__content/page__content.scss";
+@import "../blocks/page/__header/page__header.scss";
+@import "../blocks/page/__lead/page__lead.scss";
+@import "../blocks/page/__intro/page__intro.scss";
+@import "../blocks/page/__photo-grid/page__photo-grid.scss";
+@import "../blocks/page/__places/page__places.scss";
+@import "../blocks/page/__cover/page__cover.scss";
+@import "../blocks/page/__footer/page__footer.scss";
