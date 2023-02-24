@@ -7,7 +7,7 @@
   align-items: center;
   row-gap: 16px;
   min-height: auto;
-  background-image: url("/images/cover-trains.jpg");
+  background-image: url("../../images/cover-trains.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
