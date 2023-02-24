@@ -1,0 +1,26 @@
+.places {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 66px;
+}
+
+@media screen and (min-width: 767px) {
+  .places {
+      row-gap: 72px;
+      padding-bottom: 90px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+  .places {
+      row-gap: 80px;
+      padding-bottom: 92px;
+    }
+}

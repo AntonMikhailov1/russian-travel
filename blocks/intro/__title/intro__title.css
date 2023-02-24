@@ -1,0 +1,16 @@
+.intro__title {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: clamp(2rem, 0.9rem + 5.5vw, 3.375rem);
+  line-height: 1.094;
+  text-align: start;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 568px) {
+    .intro__title {
+        line-height: 1.074;
+      }
+}

@@ -1,0 +1,33 @@
+.page__intro {
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 64px;
+}
+
+@media screen and (min-width: 568px) {
+  .page__intro {
+      margin-top: 0;
+      margin-right: 24px;
+      margin-left: 24px;
+      margin-bottom: 88px;
+    }
+}
+
+@media screen and (min-width: 824px) {
+  .page__intro {
+      margin-top: 0;
+      margin-right: auto;
+      margin-left: 48px;
+      margin-bottom: 92px;
+    }
+}
+
+@media screen and (min-width: 1279px) {
+  .page__intro {
+      margin-top: 0;
+      margin-right: auto;
+      margin-left: 148px;
+    }
+}

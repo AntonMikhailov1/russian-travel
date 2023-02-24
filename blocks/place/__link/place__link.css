@@ -1,0 +1,17 @@
+.place__link {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+@media (hover: hover) {
+  .place__link:hover {
+      opacity: 0.8;
+      transition: opacity 0.2s ease;
+    }
+}

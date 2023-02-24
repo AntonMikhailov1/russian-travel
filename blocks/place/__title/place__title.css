@@ -1,0 +1,23 @@
+.place__title {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: calc(100% - 32px);
+  font-weight: 900;
+  font-size: clamp(2rem, 1.5536rem + 2.2321vw, 2.625rem);
+  line-height: 1.094;
+}
+
+@media screen and (min-width: 568px) {
+  .place__title {
+      width: 100%;
+      line-height: 1.095;
+    }
+}
+
+@media screen and (min-width: 864px) {
+  .place__title {
+      font-size: clamp(2.625rem, -7.5rem + 18.75vw, 4.5rem);
+      line-height: 1.055;
+    }
+}

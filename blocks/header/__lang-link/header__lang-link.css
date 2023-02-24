@@ -1,0 +1,19 @@
+.header__lang-link {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1.111;
+}
+
+@media screen and (min-width: 768px) {
+  .header__lang-link {
+      font-size: 24px;
+      line-height: 1.166;
+    }
+}

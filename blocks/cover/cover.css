@@ -1,0 +1,25 @@
+.cover {
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 16px;
+  min-height: auto;
+  background-image: url("/images/cover-trains.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-width: 1184px;
+  aspect-ratio: 1.6;
+  height: auto;
+  z-index: 1;
+}
+
+@media screen and (min-width: 568px) {
+    .cover {
+        row-gap: 32px;
+      }
+}

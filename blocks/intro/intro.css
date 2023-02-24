@@ -1,0 +1,9 @@
+.intro {
+  max-width: 720px;
+  height: auto;
+}
+@media screen and (min-width: 1023px) {
+    .intro {
+        max-width: 690px;
+      }
+}
