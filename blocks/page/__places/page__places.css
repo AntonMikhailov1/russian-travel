@@ -1,0 +1,18 @@
+.page__places {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 66px;
+}
+
+@media screen and (min-width: 672px) {
+    .page__places {
+        padding-bottom: 90px;
+      }
+}
+  
+@media screen and (min-width: 920px) {
+  .page__places {
+      padding-bottom: 92px;
+    }
+}

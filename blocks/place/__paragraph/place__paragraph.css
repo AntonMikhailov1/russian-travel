@@ -3,23 +3,17 @@
   padding: 0;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.626;
+  line-height: 1.627;
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 920px) {
   .place__paragraph {
-      line-height: 1.620;
+    font-size: clamp(1rem, -0.1058rem + 1.9231vw, 1.125rem);
+      line-height: 1.600;
     }
 }
 
-@media screen and (min-width: 864px) {
-  .place__paragraph {
-      font-size: clamp(1rem, 0.325rem + 1.25vw, 1.125rem);
-      line-height: 1.594;
-    }
-}
-
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1200px) {
   .place__paragraph {
       line-height: 1.608;
     }

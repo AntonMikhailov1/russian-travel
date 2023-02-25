@@ -2,23 +2,25 @@
   margin: 0;
   padding: 0;
   text-indent: 0;
-  list-style: none;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  padding-inline-start: 0;
+  list-style-type: none;
   max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   row-gap: 32px;
 }
-@media screen and (min-width: 568px) {
+
+@media screen and (min-width: 482px) {
     .footer__links {
         flex-direction: row;
         justify-content: flex-start;
-        column-gap: 18px;
+        column-gap: 10px;
         row-gap: 0;
       }
+}
+
+@media screen and (min-width: 672px) {
+  .footer__links {
+      column-gap: 19px;
+    }
 }

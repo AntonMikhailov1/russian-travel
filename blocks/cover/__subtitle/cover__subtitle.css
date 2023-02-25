@@ -10,9 +10,10 @@
   width: calc(100% - 32px);
   max-width: 360px;
   z-index: 3;
+  opacity: 1;
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 482px) {
     .cover__subtitle {
         line-height: 1.222;
         width: calc(100% - 104px);

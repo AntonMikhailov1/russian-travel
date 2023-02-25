@@ -1,6 +1,6 @@
 .header__lang-link {
   display: inline-block;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,9 +11,16 @@
   line-height: 1.111;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 672px) {
   .header__lang-link {
       font-size: 24px;
       line-height: 1.166;
+    }
+}
+
+@media (hover: hover) {
+  .header__lang-link:hover {
+      opacity: 0.8;
+      transition: opacity 0.2s ease;
     }
 }

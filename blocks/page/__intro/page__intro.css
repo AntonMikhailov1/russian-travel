@@ -6,28 +6,33 @@
   margin-bottom: 64px;
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 672px) {
   .page__intro {
-      margin-top: 0;
-      margin-right: 24px;
-      margin-left: 24px;
       margin-bottom: 88px;
     }
 }
 
-@media screen and (min-width: 824px) {
+@media screen and (min-width: 920px) {
   .page__intro {
-      margin-top: 0;
-      margin-right: auto;
       margin-left: 48px;
+      margin-right: auto;
       margin-bottom: 92px;
     }
 }
 
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1023px) {
   .page__intro {
-      margin-top: 0;
-      margin-right: auto;
+      margin-left: 4.6875%;
+      margin-right: 27.9297%;
+      margin-bottom: 92px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .page__intro {
       margin-left: 148px;
+      margin-right: 34.5313%;
+      margin-bottom: 92px;
     }
 }

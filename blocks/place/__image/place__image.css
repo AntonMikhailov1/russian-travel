@@ -10,7 +10,7 @@
   object-position: center;
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 672px) {
   .place__image {
       max-width: 460px;
     }

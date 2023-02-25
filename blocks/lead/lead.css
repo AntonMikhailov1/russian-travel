@@ -1,19 +1,19 @@
 .lead {
   width: 100%;
   height: auto;
+  max-width: 768px;
 }
-@media screen and (min-width: 568px) {
+
+@media screen and (min-width: 920px) {
     .lead {
-        max-width: 768px;
-      }
-}
-@media screen and (min-width: 864px) {
-    .lead {
+        width: calc(100% - 2 * 48px);
         max-width: 928px;
       }
 }
-@media screen and (min-width: 1080px) {
+
+@media screen and (min-width: 1200px) {
     .lead {
         max-width: 984px;
+        width: calc(100% - 2 * 148px);
       }
 }

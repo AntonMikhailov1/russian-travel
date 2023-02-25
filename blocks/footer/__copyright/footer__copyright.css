@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-size: 14px;
   line-height: 1;
+  flex-basis: content;
 }
 
 @media screen and (min-width: 568px) {

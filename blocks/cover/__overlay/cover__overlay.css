@@ -1,21 +1,26 @@
 .cover__overlay {
-  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.cover__overlay::before {
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
   z-index: 2;
-  background-color: #2A2C2F;
+  opacity: 0;
   aspect-ratio: 1.6;
+  background-color: #2A2C2F;
   opacity: 0.3;
+  transition: opacity 0.3s ease;
 }
 
 @media (hover: hover) {
-    .cover__overlay:hover {
+    .cover__overlay:hover::before {
         opacity: 0.8;
-        transition: opacity 0.3s ease;
       }
 }

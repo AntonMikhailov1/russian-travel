@@ -1,4 +1,4 @@
-@import "../node_modules/normalize.css/normalize.css";
+@import "../vendor/normalize.css";
 @import "../fonts/fonts.css";
 
 /* Page */
@@ -16,6 +16,7 @@
 /* Lead  */
 
 @import "../blocks/lead/lead.css";
+@import "../blocks/lead/__figure/lead__figure.css";
 @import "../blocks/lead/__caption/lead__caption.css";
 @import "../blocks/lead/__image/lead__image.css";
 @import "../blocks/lead/__subtitle/lead__subtitle.css";
@@ -32,6 +33,7 @@
 /* Photo-grid  */
 
 @import "../blocks/photo-grid/photo-grid.css";
+@import "../blocks/photo-grid/__list/photo-grid__list.css";
 @import "../blocks/photo-grid/__item/photo-grid__item.css";
 
 /* Places  */
@@ -52,6 +54,7 @@
 /* Cover  */
 
 @import "../blocks/cover/cover.css";
+@import "../blocks/cover/__link/cover__link.css";
 @import "../blocks/cover/__overlay/cover__overlay.css";
 @import "../blocks/cover/__title/cover__title.css";
 @import "../blocks/cover/__subtitle/cover__subtitle.css";

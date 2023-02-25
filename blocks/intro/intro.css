@@ -1,9 +1,24 @@
 .intro {
   max-width: 720px;
+  width: calc(100% - 2 * 16px);
   height: auto;
 }
-@media screen and (min-width: 1023px) {
+
+@media screen and (min-width: 672px) {
+  .intro {
+      width: calc(100% - 2 * 24px);
+    }
+}
+
+@media screen and (min-width: 920px) {
+  .intro {
+      max-width: 690px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
     .intro {
-        max-width: 690px;
+        width: calc(100% - 2 * 148px);
+
       }
 }
