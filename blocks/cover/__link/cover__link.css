@@ -1,17 +1,40 @@
 .cover__link {
-    margin: auto;
-    color: #ffffff;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 16px;
-    min-height: auto;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 16px;
+  min-height: auto;
 }
 
 @media screen and (min-width: 672px) {
-    .cover__link {
-        row-gap: 32px;
-      }
-  }
+  .cover__link {
+      row-gap: 32px;
+    }
+}
+
+.cover__link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  aspect-ratio: 1.6;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+}
+
+@media (hover: hover) {
+  .cover__link:hover::before {
+      opacity: 0.8;
+    }
+}
